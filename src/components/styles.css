@@ -1,0 +1,40 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+input {
+  font-size: 15px;
+}
+
+#item-warpper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 0 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  align-items: flex-start;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#item {
+  border-bottom: 1px solid #909090;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+#item:first-child {
+  border-top: none;
+}
+#item:last-child {
+  border-bottom: none;
+}
